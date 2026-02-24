@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Charles Onedibe | Backend Engineer</title>
+    <style>
+        :root {
+            --bg-color: #0f172a;
+            --text-main: #f8fafc;
+            --text-muted: #94a3b8;
+            --accent: #38bdf8;
+            --card-bg: #1e293b;
+        }
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-main);
+            line-height: 1.6;
+        }
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 40px 20px;
+        }
+        header { margin-bottom: 60px; border-bottom: 1px solid #334155; padding-bottom: 30px; }
+        h1 { font-size: 2.5rem; margin-bottom: 10px; color: var(--text-main); }
+        h2 { font-size: 1.5rem; color: var(--accent); margin-bottom: 20px; font-weight: 500; }
+        h3 { font-size: 1.25rem; margin-bottom: 5px; }
+        p { color: var(--text-muted); margin-bottom: 15px; }
+        a { color: var(--accent); text-decoration: none; }
+        a:hover { text-decoration: underline; }
+        
+        .links { margin-top: 15px; display: flex; gap: 15px; }
+        
+        section { margin-bottom: 50px; }
+        .card {
+            background-color: var(--card-bg);
+            padding: 25px;
+            border-radius: 8px;
+            margin-bottom: 20px;
+            border: 1px solid #334155;
+        }
+        .date { font-size: 0.9rem; color: var(--accent); margin-bottom: 10px; display: block; }
+        ul { margin-left: 20px; color: var(--text-muted); }
+        li { margin-bottom: 8px; }
+
+        .skills-grid {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+        .skill-tag {
+            background-color: #0c4a6e;
+            color: #38bdf8;
+            padding: 5px 12px;
+            border-radius: 20px;
+            font-size: 0.9rem;
+            font-weight: 500;
+        }
+
+        footer {
+            text-align: center;
+            margin-top: 60px;
+            padding-top: 20px;
+            border-top: 1px solid #334155;
+            color: var(--text-muted);
+            font-size: 0.9rem;
+        }
+
+        @media (max-width: 600px) {
+            h1 { font-size: 2rem; }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Charles Onedibe</h1>
+            <h2>Backend Engineer</h2>
+            <p>I specialize in building high-performance, scalable backend systems. I focus on designing robust APIs, optimizing infrastructure, and enhancing system efficiency to deliver seamless and reliable user experiences.</p>
+            <div class="links">
+                <a href="mailto:gozione3@gmail.com">Email</a>
+                <a href="https://linkedin.com/in/onedibe-charles" target="_blank">LinkedIn</a>
+                <a href="https://github.com/charliescript" target="_blank">GitHub</a>
+            </div>
+        </header>
+
+        <section>
+            <h2>Technical Skills</h2>
+            <div class="skills-grid">
+                <span class="skill-tag">TypeScript</span>
+                <span class="skill-tag">Node.js</span>
+                <span class="skill-tag">NestJS</span>
+                <span class="skill-tag">PostgreSQL</span>
+                <span class="skill-tag">AWS (EC2, RDS, ECR)</span>
+                <span class="skill-tag">Golang</span>
+                <span class="skill-tag">React</span>
+            </div>
+        </section>
+
+        <section>
+            <h2>Experience</h2>
+            
+            <div class="card">
+                <h3>Backend Developer</h3>
+                <span class="date">Ezewholesale | 2022 - 2025</span>
+                <ul>
+                    <li>Spearheaded the development of a comprehensive user onboarding system, ensuring a seamless experience.</li>
+                    <li>Led the revamping of the admin dashboard, focusing on usability and modern design principles.</li>
+                    <li>Optimized backend processes and integrated advanced analytics to provide actionable insights.</li>
+                </ul>
+            </div>
+
+            <div class="card">
+                <h3>Fullstack Developer</h3>
+                <span class="date">Easyshare Global | 2022 - 2023</span>
+                <ul>
+                    <li>Maintained and refactored existing TypeScript/NestJS codebase to improve scalability.</li>
+                    <li>Contributed to crypto-related platform features, supporting P2P transactions and wallet operations.</li>
+                    <li>Collaborated on systems enabling secure crypto payments, escrow mechanisms, and transaction monitoring.</li>
+                </ul>
+            </div>
+        </section>
+
+        <section>
+            <h2>Projects</h2>
+            
+            <div class="card">
+                <h3>Easyshare Global</h3>
+                <p>A global payment platform that allows users to send and receive payments worldwide. It supports multiple currencies and payment methods.</p>
+                <a href="https://www.easyshare.global/" target="_blank">View Project</a>
+            </div>
+
+            <div class="card">
+                <h3>Ezewholesale</h3>
+                <p>A wholesale platform that allows users to buy and sell products in bulk. It supports multiple currencies and payment methods.</p>
+                <a href="https://ezewholesale.com" target="_blank">View Project</a>
+            </div>
+
+            <div class="card">
+                <h3>Foodbridge</h3>
+                <p>A food delivery platform that allows users to order food from their favorite restaurants. It supports multiple currencies and payment methods.</p>
+                <a href="https://foodbridgeng.com/" target="_blank">View Project</a>
+            </div>
+        </section>
+
+        <footer>
+            <p>&copy; 2026 Charles Onedibe. All rights reserved.</p>
+        </footer>
+    </div>
+</body>
+</html>
